@@ -1,0 +1,148 @@
+/* Fashion Store Theme */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f8f4ed;
+    color: #29251f;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: #29251f;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+a {
+    color: #75563f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #a47752;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #29251f;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #75563f;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #d8cfc2;
+    border-radius: 4px;
+    background-color: #fffdf9;
+    margin-top: 5px;
+    max-width: 100%;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ded5c8;
+    margin: 25px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fffdf9;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #29251f;
+    color: white;
+}
+
+th, td {
+    padding: 13px;
+    border: 1px solid #e4dbcf;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #f5eee4;
+}
+
+/* Product cards */
+.product-card {
+    background-color: #fffdf9;
+    border: 1px solid #e7ded2;
+    border-radius: 8px;
+    padding: 22px;
+    margin: 18px 0;
+    box-shadow: 0 3px 12px rgba(50, 40, 30, 0.06);
+}
+
+.product-card h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #75563f;
+}
+
+/* Page navigation */
+.navigation {
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #eee5d8;
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 7px;
+    }
+}
+
+.product-card img {
+    width: 220px;
+    height: 240px;
+    object-fit: contain;
+    display: block;
+    margin: 15px 0;
+    border-radius: 6px;
+    background: #fffdf9;
+}

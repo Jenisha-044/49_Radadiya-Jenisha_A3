@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name>Rahul Patel</name>
+        <course>MSc ICT</course>
+        <email>rahul@gmail.com</email>
+    </student>
+    <student>
+        <name>Priya Shah</name>
+        <course>MSc ICT</course>
+        <email>priya@gmail.com</email>
+    </student>
+</students>
